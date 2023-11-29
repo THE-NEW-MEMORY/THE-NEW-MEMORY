@@ -906,7 +906,6 @@ section {
   height: 100%;
   border-top: 4px solid #fff;
   border-radius: 5px;
-  text-align: center;
 }
 
 .pricing h3 {
@@ -914,6 +913,7 @@ section {
   margin-bottom: 15px;
   font-size: 20px;
   color: var(--color-secondary);
+  text-align: center;
 }
 
 .pricing h4 {
@@ -922,6 +922,7 @@ section {
   font-weight: 400;
   font-family: var(--font-primary);
   margin-bottom: 25px;
+  text-align: center;
 }
 
 .pricing h4 sup {
@@ -934,15 +935,19 @@ section {
 }
 
 .pricing ul {
-  padding: 20px 0;
-  text-align: center;
-  align-items: ce;
+  padding: 20px;
+  align-items: start;
   list-style: none;
   justify-content: center;
   color: #6c757d;
   line-height: 20px;
 }
-
+.pricing-item .tittt{
+  color: var(--color-primary);
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+}
 .pricing ul li {
   padding: 10px 0;
   display: flex;
@@ -1937,4 +1942,15 @@ section {
 
 .footer .credits a {
   color: #fff;
+}
+@media (max-width: 992px) {
+  :root {
+    text-align: center;
+  }
+  .hero h2{
+    text-align: center;
+  }
+  .hero p {
+    text-align: center;
+  }
 }
